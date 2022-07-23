@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-family: $header-font;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 70px; 
+  left: 20px;
+  transform: rotate(90deg);
+}
+
+//
