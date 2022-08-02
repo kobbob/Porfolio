@@ -8,9 +8,9 @@ body {
 
 .scroll {
   position: fixed;
-  bottom: 150px; 
-  left: 20px;
-  transform: rotate(90deg);
+  bottom: 50px; 
+  right: 20px;
+  z-index: 1;
 }
 
-//
+
