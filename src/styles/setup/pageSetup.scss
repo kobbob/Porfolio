@@ -1,15 +1,20 @@
-.slide {
-  width: 90vw;
-  height: 100vh;
+.site-wrapper{
   display: flex;
-  flex-direction: row;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
+  // flex-direction: row;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  // display: flex;
+  // flex-direction: row;
+  // transform: rotate(90deg) translateY(-100vh);
+  // transform-origin: top left;
 }
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 700000px;
+  width: 600vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
