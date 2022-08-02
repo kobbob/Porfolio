@@ -1,6 +1,14 @@
 @import './variables.scss';
-@import './base';
+@import './base.scss';
+
+@import './setup/pageSetup.scss';
+@import './setup/responsive.scss';
+
 @import './components/home.scss';
-@import './components/pages.scss';
 @import './components/navigation.scss';
-@import './responsive.scss';
+@import './components/about.scss';
+@import './components/experience.scss';
+@import './components/skills.scss';
+@import './components/portfolio.scss';
+@import './components/contact.scss';
+

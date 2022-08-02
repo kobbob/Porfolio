@@ -1,11 +1,15 @@
 .slide {
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
 }
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 100000px;
+  width: 700000px;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -23,3 +27,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+
+
