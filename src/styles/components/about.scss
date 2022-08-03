@@ -1,3 +1,68 @@
 .about {
   background-color: $orange;
+  // position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  // margin: 10vh 10vw;
+  width: 750px;
+  height: 580px;
+  border: 5px solid aqua;
+  padding: 10px;
+  background:
+  conic-gradient(from 90deg at 1px 1px,#0000 90deg,blue 0) 
+  0 0/50px 50px;
+  // position: absolute;
+  // top: 0%;
+  // left: -5%
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  // margin: 19vh 5vw;
+  width: 300px;
+  height: 300px;
+  border: 5px solid aqua;
+  padding: 10px;
+  margin: 15px;
+  z-index: 1;
+  // position: absolute;
+  background-color: $orange;
+  // top: 25%;
+  // right: 53%
+
+}
+
+// #about-text
+
+h1#about-header {
+  font-family: $body-font;
+}
+
+p.about-para {
+  font-family: $body-font;
+  font-size: x-small;
+}
+
+#profile {
+  // margin: 10vh 0vw;
+  width: 300px;
+  height: 300px;
+  border: 5px solid aqua;
+  padding: 10px;
+  background: url(../../assets/images/maxximuseum.jpg) no-repeat;
+  background-size: contain;
+  z-index: 1;
+
 }

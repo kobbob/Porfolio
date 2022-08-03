@@ -12,7 +12,20 @@ $black: #0e0f0e;
 
 //Fonts: 
 $header-font: 'Bungee Shade', cursive;
-$body-font: 'Roboto', sans-serif;
+$body-font: 'KonstantGrotesk';
+
+@font-face {
+  font-family: 'KonstantGrotesk';
+  src: url('./fonts/KonstantGrotesk.otf');
+  src: 
+    local('Konstant Grotesk'),
+    local('Konstant-Grotesk'),
+    url('./fonts/KonstantGrotesk.otf');
+}
+
+
+
+
 
 /* 
 font-family: 'Bungee Shade', cursive;
