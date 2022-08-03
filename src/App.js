@@ -22,8 +22,8 @@ const App = () => {
             <div className='wrapper'>
               <Home />
               <About />
-              <Experience />
               <Skills />
+              <Experience />
               <Portfolio />
               <Contact />
             </div>

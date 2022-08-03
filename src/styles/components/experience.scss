@@ -1,13 +1,13 @@
 .experience {
   // background-color: rgb(254, 198, 244);
-  width: 70vw;
+  width: 80vw;
   height: 100vh;
-  background-color:#1D1D1D;
+  background-color:$pink;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size:px;
+  font-size:24px;
 
 
   max-height:100vh;
@@ -27,8 +27,11 @@
     width:calc(100% - 80px);
     max-width:700px;
     margin:auto;
+    padding: 0 50px;
     position: relative;
     left:-5px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
     &:before {
       content: '';
       // position: fixed;

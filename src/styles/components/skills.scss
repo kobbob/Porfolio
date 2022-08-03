@@ -1,5 +1,37 @@
 .skills {
   width: 60vw;
   height: 100vh;
-  background-color: $yellow;
+  background-color: $black-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  .skills-intro {
+    width: 50vw;
+    height: 30vh;
+    margin: 50px;
+    border: 1px dashed #fff;
+    text-align: center;
+
+    
+  }
+  .program-logos {
+    width: 50vw;
+    height: 30vh;
+    margin: 50px;
+    border: 1px dashed #fff;
+  }
+  .buzz-content {
+    width: 50vw;
+    height: 30vh;
+    margin: 50px;
+    border: 1px dashed #fff;
+  }
 }
+
+
+
+
