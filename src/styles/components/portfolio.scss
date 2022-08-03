@@ -35,54 +35,46 @@
     80px 80px;
   margin: 15vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+
+
 
 .one {
   margin-top: 10vh;
   width: 30vw;
   height: 80vh;
-  img#p3-moodboard {
-    width: 50%;
-    height: 200px;
-    background: no-repeat;
-    background-size: contain;
-    z-index: 1;
-    margin-bottom: 350px;
-  }
+
   img#p3-demo {
-    width: 50%;
-    height: 250px;
-    background-size: contain;
-    background-color: rgb(29, 29, 29, 0.75);
-    border: 2px solid rgb(29, 29, 29);
+    width: 25vw;
+    height: 45vh;
+    margin-top: 7vh;
+    border: 1px dashed #fff;
+    text-align: center;
+    // width: 75%;
+    // height: 350px;
+    // background-color: rgb(29, 29, 29, 0.75);
     padding: 30px;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -150px;
-    margin-bottom: 150px;
   }
   .p3-text {
-    width: 50%;
-    height: 200px;
-    background-size: contain;
-    background-color:rgb(29, 29, 29, 0.75);;
-    border: 2px solid rgb(29, 29, 29);
-    padding: 20px;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 20vw;
+    height: 30vh;
+    margin-bottom: 10vh;
+    border: 1px dashed #fff;
     text-align: center;
-    font-family: $body-font;
-    margin-left: -350px;
-    margin-top: 450px;
+    // width: 75%;
+    // height: 350px;
+    background-color: rgb(29, 29, 29, 0.6);
+    padding: 23px;
+
     p {
       font-size: small;
+      font-family: $body-font;
+      margin-top: 30px;
+  
     }
   }
 }
