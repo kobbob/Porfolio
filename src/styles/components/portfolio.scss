@@ -3,12 +3,18 @@
   height: 100vh;
   background-color: $black-grey;
   border: 1px dashed #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  h1#portfolio-header {
+    font-size: 20px;
+  }
 }
 
-.container1 {
-  width: 100vw;
-  height: 100vh;
-  background:
+.container {
+    /* Graph paper gridlines */
+    background:
     linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
     linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), 
     linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
@@ -27,4 +33,75 @@
     80px 80px,
     80px 80px,
     80px 80px;
+  margin: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  margin-top: 10vh;
+  width: 30vw;
+  height: 80vh;
+  img#p3-moodboard {
+    width: 50%;
+    height: 200px;
+    background: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    margin-bottom: 350px;
+  }
+  img#p3-demo {
+    width: 50%;
+    height: 250px;
+    background-size: contain;
+    background-color: rgb(29, 29, 29, 0.75);
+    border: 2px solid rgb(29, 29, 29);
+    padding: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -150px;
+    margin-bottom: 150px;
+  }
+  .p3-text {
+    width: 50%;
+    height: 200px;
+    background-size: contain;
+    background-color:rgb(29, 29, 29, 0.75);;
+    border: 2px solid rgb(29, 29, 29);
+    padding: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: $body-font;
+    margin-left: -350px;
+    margin-top: 450px;
+    p {
+      font-size: small;
+    }
+  }
+}
+
+.two {
+  margin-top: 10vh;
+  width: 30vw;
+  height: 80vh;
+}
+
+.three {
+  margin-top: 20vh;
+  width: 30vw;
+  height: 60vh;
+}
+
+.four {
+  margin-top: 25vh;
+  width: 30vw;
+  height: 50vh;
+  margin-right: 5vh;
 }
