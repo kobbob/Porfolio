@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d431b69f.css",
+    "main.js": "/Portfolio/static/js/main.195ed55c.js",
+    "static/media/P4Demo.png": "/Portfolio/static/media/P4Demo.013422479a3983fdb276.png",
+    "static/media/P1Demo.png": "/Portfolio/static/media/P1Demo.8ffdea905fdc98d11a19.png",
+    "static/media/P3Demo.png": "/Portfolio/static/media/P3Demo.dc2c183e46ebeca96c68.png",
+    "static/media/P2Demo.png": "/Portfolio/static/media/P2Demo.8d081c1bbf9132f754a5.png",
+    "static/media/maxximuseum.jpg": "/Portfolio/static/media/maxximuseum.2a136423427108a8d07c.jpg",
+    "static/media/KonstantGrotesk.otf": "/Portfolio/static/media/KonstantGrotesk.16e315e356ea47254e64.otf",
+    "index.html": "/Portfolio/index.html",
+    "main.d431b69f.css.map": "/Portfolio/static/css/main.d431b69f.css.map",
+    "main.195ed55c.js.map": "/Portfolio/static/js/main.195ed55c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d431b69f.css",
+    "static/js/main.195ed55c.js"
+  ]
+}
