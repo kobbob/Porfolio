@@ -1,7 +1,11 @@
 const Experience = () => {
 
   return (
-      <div className='slide experience'>experience</div>
+      <div className='slide experience'>
+        
+        experience
+      
+      </div>
   )
 }
 
